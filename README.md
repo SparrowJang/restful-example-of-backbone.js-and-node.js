@@ -1,18 +1,18 @@
 restful-example-of-backbone.js-and-node.js
 ==========================================
 
-###Introduction
+##Introduction
 
-	This example uses node.js,so you need install node.js.
+This example uses node.js,so you need install node.js.
 
-###Dependency
+##Dependency
 
 * [node.js](http://nodejs.org/)
 * [jQuery](https://github.com/jquery/jquery)
 * [express.js](http://expressjs.com/guide.html#intro)
 * [Backbone](http://documentcloud.github.com/backbone)
 
-###Run Server
+##Run Server
 start to run server.
 
     node server.js
