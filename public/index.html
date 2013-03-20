@@ -1,0 +1,81 @@
+
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+
+	<style type="text/css">
+
+
+		div.user-list-container {
+			width:220px;
+			background:#bdbdbd;
+		}
+
+
+		div.user-list-container  ul{
+			padding-left:0px;
+		}
+
+		div.user-list-container  ul li{
+			list-style-type:none;
+			overflow:auto;
+		}
+
+
+		div.user-list-container  ul > li.title{
+			background:#a8a8a8;
+		}
+
+		div.user-list-container  .add-user{
+			width:100%;
+		}
+
+		div.user-list-container > div > ul > li > div{
+			float:left;
+		}
+
+		.clear-both{
+			clear:both;
+		}
+
+		div.btn-group > button{
+			cursor:pointer;
+		}
+
+		div.id,div.name {
+			text-align:center;
+		}
+
+		div.id{
+			width:40px;
+		}
+
+		div.name {
+			width:60px;
+			cursor:pointer;
+		}
+	</style>
+</head>
+<body>
+
+	<h1>Backbone restful example</h1>
+	
+	<h3>Member</h3>
+	<div class="user-list-container">
+
+	</div>
+
+	<script type="text/javascript" src="js/lib/jquery-1.9.1.js"></script>
+	<script type="text/javascript" src="js/lib/underscore.js"></script>
+	<script type="text/javascript" src="js/lib/backbone.js"></script>
+	<script type="text/javascript" src="js/model/User.js"></script>
+	<script type="text/javascript" src="js/collection/Users.js"></script>
+	<script type="text/javascript" src="js/view/MemberItemView.js"></script>
+	<script type="text/javascript" src="js/view/MemberListView.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
+
