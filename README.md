@@ -1,4 +1,4 @@
-restful-example-of-backbone.js-and-node.js
+restful example of backbone.js and node.js
 ==========================================
 
 ##Introduction
